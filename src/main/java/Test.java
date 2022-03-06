@@ -19,6 +19,7 @@ public class Test {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
+
             });
 
         }
@@ -28,6 +29,7 @@ public class Test {
 
         }
 
+        System.out.println("用时"+(end-start));
         System.out.println("用时"+(end-start));
 
 
