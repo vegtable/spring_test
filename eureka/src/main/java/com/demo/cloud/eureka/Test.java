@@ -34,7 +34,7 @@ public class Test {
         AnnotationConfigApplicationContext app = new AnnotationConfigApplicationContext(Config.class);
         System.out.println(app.getBean("beanDemoImp"));
         System.out.println(app.getBean("beanDemoImp1"));
-        System.out.println(app.getBean("hot fix"));
+        System.out.println(app.getBean("hot fix commit"));
 
         Map map = new HashMap();
         map.put(null,null);
